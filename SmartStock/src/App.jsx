@@ -1,5 +1,7 @@
 import './App.css'
+import { BrowserRouter } from 'react-router-dom'
 
+import { Router } from './Router'
 /* 
 import reactLogo from './assets/react.svg'
 <img src={reactLogo} className="logo react" alt="React logo" />
@@ -8,10 +10,10 @@ import reactLogo from './assets/react.svg'
 function App() {
 
   return (
-    <>
-      <h1 className="text-5xl font-bold">SmartStock</h1>
-    </>
+    <BrowserRouter>
+      <Router/>
+    </BrowserRouter>
   )
 }
 
-export default App
+export  { App }

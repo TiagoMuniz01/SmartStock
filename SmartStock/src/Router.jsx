@@ -7,8 +7,8 @@ const Router = () => {
         <Routes>
             <Route path='/' element={<LayoutHome/>}>
                 <Route path='/' element={<Home />}/>
-                <Route path='/login' element={<Login />}/>
             </Route>
+            <Route path='/login' element={<Login />}/>
         </Routes>
     )
 }

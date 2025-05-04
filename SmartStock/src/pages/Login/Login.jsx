@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom"
 
+import style from './Login.module.css'
+
 const Login = () => {
     return(
-        <div>
-            <h1>Login</h1>
-            <span>
-                <Link to='/'>Home</Link>
-            </span>
-            
+        <div className="h-screen bg-linear-150 from-primario from-80% to-secundario">
+
         </div>
     )
 }

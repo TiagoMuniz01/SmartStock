@@ -18,7 +18,7 @@ const Login = () => {
                 Logo
             </div>
                 <CardLogin/>
-        </div>
+            </div>                    
     )
 }
 
